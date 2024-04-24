@@ -1,4 +1,7 @@
 import "./Livechat.css"
+import Frame1 from "../../assets/Frame1.png";
+import Frame2 from "../../assets/Frame2.png";
+
 
 const Livechat =()=>{
     return(
@@ -16,7 +19,7 @@ const Livechat =()=>{
                         <div className="LivechatHello">
                             <div className="LivechatProfilecircle">
                                 <div className="Leftlivechatprofile">
-                                    <img src="public/Frame2.png" alt="image" />
+                                    <img src={Frame2} alt="image" />
                                 </div>
                                 <div className="Rightlivechattext">
                                     <div className="Rightlivechattextwrap">
@@ -34,7 +37,19 @@ const Livechat =()=>{
                                     </div>
                                 </div>
                                 <div className="RightlivechatHiprofile">
-                                    <img src="public/Frame1.png" alt="image" />
+                                    <img src={Frame1} alt="image" />
+                                </div>
+                            </div>
+                        </div>
+                        <div className="LivechatHello">
+                            <div className="LivechatProfilecircle">
+                                <div className="Leftlivechatprofile">
+                                    <img src={Frame2} alt="image" />
+                                </div>
+                                <div className="Rightlivechattext">
+                                    <div className="Rightlivechattextwrap">
+                                    <p>Hello</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
